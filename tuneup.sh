@@ -1,10 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 
 # install some tools
 
 sudo dnf -y install vim mc htop chrome-gnome-shell libappindicator gnome-tweak-tool gedit gedit-plugins system-config-printer 
-sudo dnf -y install pv sdcv stardict-dic-en aspell aspell-en aspell-pl ShellCheck pandoc
+sudo dnf -y install pv sdcv stardict-dic-en aspell aspell-en aspell-pl ShellCheck pandoc ShellCheck
 
 # install ffmpeg
 
