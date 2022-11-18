@@ -40,3 +40,6 @@ dnf install -y gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh2
 dnf install -y lame\* --exclude=lame-devel
 dnf group upgrade --with-optional Multimedia
 
+# Install GNOME tools and apps
+
+dnf install -y  evolution chromium fedora-chromium-config-gnome glade gitg jetbrains-mono-fonts 
