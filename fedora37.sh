@@ -10,7 +10,7 @@ dnf install -y  https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree
 
 # libs needed for Ruby 
 
-dnf install -y patch autoconf automake bison gcc-c++ libffi-devel libtool libyaml-devel patch readline-devel sqlite-devel zlib-devel redis
+dnf install -y patch autoconf automake bison gcc-c++ libffi-devel libtool libyaml-devel patch readline-devel sqlite-devel zlib-devel redis openssl openssl-devel
 
 
 # another langs 
