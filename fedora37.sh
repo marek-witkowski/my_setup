@@ -42,4 +42,4 @@ dnf group upgrade --with-optional Multimedia
 
 # Install GNOME tools and apps
 
-dnf install -y  evolution chromium fedora-chromium-config-gnome glade gitg jetbrains-mono-fonts 
+dnf install -y  evolution chromium fedora-chromium-config-gnome glade gitg jetbrains-mono-fonts filezilla gnome-commander
