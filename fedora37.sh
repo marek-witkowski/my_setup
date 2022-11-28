@@ -32,6 +32,9 @@ dnf install -y patch autoconf automake bison gcc-c++ libffi-devel libtool libyam
 
 dnf install -y go 
 
+# Fonts 
+
+dnf install -y jetbrains-mono-fonts
 
 # .... and games! ;)
 
@@ -46,8 +49,8 @@ dnf group upgrade --with-optional Multimedia
 
 # Install GNOME tools and apps
 
-# dnf install -y  evolution chromium fedora-chromium-config-gnome glade gitg jetbrains-mono-fonts filezilla gnome-commander
+# dnf install -y  evolution chromium fedora-chromium-config-gnome glade gitg  filezilla gnome-commander
 
 # Install KDE tools and apps
 
-dnf install -y mediainfo krita kdenlive kdevelop
+dnf install -y mediainfo  krita kdenlive kdevelop chromium
