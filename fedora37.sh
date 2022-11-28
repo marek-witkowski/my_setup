@@ -28,6 +28,10 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 dnf install -y patch autoconf automake bison gcc-c++ libffi-devel libtool libyaml-devel patch readline-devel sqlite-devel zlib-devel redis openssl openssl-devel
 
 
+# Tools
+
+dnf install -y neofetch neovim mc pandoc ShellCheck mediainfo chromium
+
 # another langs 
 
 dnf install -y go 
@@ -53,4 +57,4 @@ dnf group upgrade --with-optional Multimedia
 
 # Install KDE tools and apps
 
-dnf install -y mediainfo  krita kdenlive kdevelop chromium
+dnf install -y krita kdenlive kdevelop 
