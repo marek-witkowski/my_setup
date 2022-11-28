@@ -50,4 +50,4 @@ dnf group upgrade --with-optional Multimedia
 
 # Install KDE tools and apps
 
-dnf install -y krita kdenlive kdevelop
+dnf install -y mediainfo krita kdenlive kdevelop
