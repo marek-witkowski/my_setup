@@ -10,6 +10,10 @@ echo 'max_parallel_downloads=10' >> /etc/dnf/dnf.conf
 echo 'fastestmirror=true' >> /etc/dnf/dnf.conf
 echo 'deltarpm=true' >> /etc/dnf/dnf.conf
 
+# system update
+
+dnf update -y
+
 # Enabling the RPM Fusion repositories
 
 dnf install -y  https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
