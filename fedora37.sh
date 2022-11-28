@@ -42,4 +42,8 @@ dnf group upgrade --with-optional Multimedia
 
 # Install GNOME tools and apps
 
-dnf install -y  evolution chromium fedora-chromium-config-gnome glade gitg jetbrains-mono-fonts filezilla gnome-commander
+# dnf install -y  evolution chromium fedora-chromium-config-gnome glade gitg jetbrains-mono-fonts filezilla gnome-commander
+
+# Install KDE tools and apps
+
+dnf install -y krita kdenlive kdevelop
