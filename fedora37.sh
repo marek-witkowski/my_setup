@@ -53,7 +53,7 @@ dnf group upgrade --with-optional Multimedia
 
 # Install GNOME tools and apps
 
-dnf install -y  evolution chromium fedora-chromium-config-gnome glade gitg  filezilla gnome-commander
+dnf install -y  evolution chromium fedora-chromium-config-gnome glade gitg  filezilla gnome-commander gnome-tweak-tool
 
 # Install KDE tools and apps
 #dnf install -y krita kdenlive kdevelop 
