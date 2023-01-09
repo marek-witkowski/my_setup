@@ -30,7 +30,7 @@ dnf install -y patch autoconf automake bison gcc-c++ libffi-devel libtool libyam
 
 # Tools
 
-dnf install -y neofetch neovim mc pandoc ShellCheck mediainfo chromium pv vim
+dnf install -y neofetch neovim mc pandoc ShellCheck mediainfo chromium pv vim libreoffice-base libreoffice-draw
 
 # another langs 
 
