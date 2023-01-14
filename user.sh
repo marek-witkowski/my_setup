@@ -11,4 +11,4 @@ rvm install 3.1.2
 
 rvm docs generate-ri
 
-gem install jekyll rails rubocop rubocop-rails 
+gem install jekyll rails rubocop rubocop-rails middleman
