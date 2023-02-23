@@ -11,4 +11,4 @@ rvm install 3.1.2
 
 rvm docs generate-ri
 
-gem install bundler jekyll rails rubocop rubocop-rails middleman
+gem install bundler brakeman jekyll rails rails_best_practice rubocop rubocop-rails rubocop-performance rubocop-rspec annotate 
