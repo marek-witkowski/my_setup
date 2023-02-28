@@ -27,14 +27,14 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 dnf install -y patch autoconf automake bison gcc-c++ libffi-devel libtool libyaml-devel patch readline-devel sqlite-devel zlib-devel redis openssl openssl-devel npm postgresql-devel mysql-devel
 
+# Python
+
+dnf install -y python3-virtualenv
 
 # Tools
 
 dnf install -y neofetch neovim mc pandoc ShellCheck mediainfo chromium pv vim libreoffice-base libreoffice-draw
 
-# another langs 
-
-dnf install -y go 
 
 # Fonts 
 
