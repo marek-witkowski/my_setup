@@ -11,4 +11,4 @@ rvm install 3.2.0
 
 rvm docs generate-ri
 
-gem install bundler brakeman jekyll rails rails_best_practice rubocop rubocop-rails rubocop-performance rubocop-rspec annotate hotwire-livereload
+gem install bundler brakeman jekyll rails rails_best_practices rubocop rubocop-rails rubocop-performance rubocop-rspec annotate hotwire-livereload
