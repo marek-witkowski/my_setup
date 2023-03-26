@@ -29,7 +29,7 @@ dnf install -y patch autoconf automake bison gcc-c++ libffi-devel libtool libyam
 
 # Python
 
-dnf install -y python3-virtualenv
+dnf install -y python3-virtualenv python3-pip
 
 # Tools
 
