@@ -11,6 +11,11 @@ rvm install 3.2.0
 
 rvm docs generate-ri
 
+# Ruby
+
+gem install ruby-lsp solargraph
+
+
 # Ruby on Rails 
 
 gem install bundler brakeman  rails rails_best_practices rubocop rubocop-rails rubocop-performance rubocop-rspec annotate hotwire-livereload
