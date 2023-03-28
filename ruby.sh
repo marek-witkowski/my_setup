@@ -11,4 +11,14 @@ rvm install 3.2.0
 
 rvm docs generate-ri
 
-gem install bundler brakeman jekyll rails rails_best_practices rubocop rubocop-rails rubocop-performance rubocop-rspec annotate hotwire-livereload
+# Ruby on Rails 
+
+gem install bundler brakeman  rails rails_best_practices rubocop rubocop-rails rubocop-performance rubocop-rspec annotate hotwire-livereload
+
+# Jekyll
+
+gem install jekyll jekyll-sitemap jekyll-paginate-v2
+
+# Sinatra
+
+gem install sinatra
