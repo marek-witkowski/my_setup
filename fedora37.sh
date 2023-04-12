@@ -33,8 +33,11 @@ dnf install -y python3-virtualenv python3-pip
 
 # Tools
 
-dnf install -y neofetch neovim mc pandoc ShellCheck mediainfo pv vim libreoffice-base libreoffice-draw thunderbird zsh
+dnf install -y neofetch mc pandoc ShellCheck mediainfo pv vim libreoffice-base libreoffice-draw thunderbird zsh
 
+# tools for nvim
+
+dnf install -y neovim ripgrep 
 
 # Fonts 
 
