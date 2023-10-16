@@ -26,7 +26,7 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 # libs needed for Ruby 
 
 dnf install -y patch autoconf automake bison gcc-c++ libffi-devel libtool libyaml-devel patch readline-devel sqlite-devel zlib-devel redis openssl openssl-devel npm postgresql-devel mysql-devel ruby-devel
-
+dnf install -y nodejs yarnpkg
 # Python
 
 dnf install -y python3-virtualenv python3-pip
