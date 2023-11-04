@@ -47,6 +47,10 @@ dnf install -y jetbrains-mono-fonts
 
 dnf -y install openttd
 
+# Printer drivers
+
+dnf -y install epson-inkjet-printer-escpr
+
 
 # Install Multimedia Plugins
 
