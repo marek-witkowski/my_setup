@@ -7,4 +7,4 @@ apt install -y neofetch neovim mc pandoc shellcheck mediainfo chromium pv vim li
 
 apt install -y python3-virtualenv python-is-python3 python3-pip libcairo2 libcairo2-dev python3-cairo python3-gi-cairo libgirepository1.0-dev
 
-apt install -y nodejs npm 
+apt install -y nodejs npm yarn
