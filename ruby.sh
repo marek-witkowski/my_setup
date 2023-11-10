@@ -18,7 +18,7 @@ gem install ruby-lsp solargraph
 
 # Ruby on Rails 
 
-gem install bundler brakeman  rails rails_best_practices rubocop rubocop-rails rubocop-performance rubocop-rspec annotate hotwire-livereload
+gem install bundler brakeman  rails rails_best_practices rubocop rubocop-rails rubocop-performance rubocop-rspec annotate hotwire-livereload rspec rspec-rails devise
 
 # Jekyll
 
