@@ -9,6 +9,7 @@ hostnamectl set-hostname "Baltazar"
 echo 'max_parallel_downloads=10' >> /etc/dnf/dnf.conf
 echo 'fastestmirror=true' >> /etc/dnf/dnf.conf
 echo 'deltarpm=true' >> /etc/dnf/dnf.conf
+echo 'defaultyes=true' >> /etc/dnf/dnf.conf
 
 # system update
 
